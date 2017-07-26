@@ -3,7 +3,8 @@
 ## laravel + apache + php 環境
 ```
 $ docker build -t laravel laravel/
-$ docker run -d -v /home/vagrant/php/application:/tmp/app  laravel
+$ docker run -d -p 8081:80 -v `pwd`/application:/tmp/app  laravel
+
 ```
 
 ## mysql docker 環境
