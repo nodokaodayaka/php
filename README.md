@@ -11,3 +11,4 @@ $ docker run --name laravel --link mysql:mysql -d -p 8081:80 -v `pwd`/applicatio
 $ docker build -t mysql mysql/
 $ docker run --name mysql -d -e MYSQL_DATABASE=laraveldb -e MYSQL_USER=laravel -e MYSQL_PASSWORD=laravel  -e MYSQL_ROOT_PASSWORD=root mysql
 ```
+
